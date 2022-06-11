@@ -279,7 +279,7 @@ main > section {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0,0,0,.8);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 5px 0;
 }
@@ -739,7 +739,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgb(37, 119, 21, 0.78);
+    background-color: rgb(37, 119, 21, 0.6);
     padding: 350px 0 180px;
 }
 
@@ -1442,13 +1442,8 @@ textarea.form-control {
         width: 380px;
     }
 }
-.circle {
-    width: 500px;
-    height: 500px;
-    line-height: 500px;
-    border-radius: 50%;
-    font-size: 50px;
-    color: #fff;
-    text-align: center;
-    background: rgb(37, 119, 21);
-  }
+
+#divider {
+    height: 200px;
+    background-color: rgb(37, 119, 21, 0.6);
+}
